@@ -1,0 +1,24 @@
+decision tree : 
+    Scores:  [3.54882323 5.65778117 5.30958636 3.72807411 3.95037973 3.2197826
+    4.70669736 3.67001362 3.30071962 3.34368808]
+    mean:  4.0435545890833655
+    Standard deviation:  0.8283140044577972
+
+
+linear regression : 
+    Scores:  [3.96466097 5.4171138  5.48263334 3.69518474 3.6904268  3.33785111
+    4.716169   3.49982142 3.29028874 3.62891168]
+    mean:  4.0723061596572485
+    Standard deviation:  0.7865775545581665
+
+(Lower values of mean are better because they indicate smaller errors. so 
+decision tree >> linear regression)
+
+Random forest regressor : 
+    Scores:  [2.88751117 2.73421223 4.44943834 2.61689777 3.3478806  2.79001706
+    4.80194041 3.21505744 3.31660041 3.2276759 ]
+    mean:  3.3387231329663303
+    Standard deviation:  0.6923891171633371
+
+We can see lower values of mean in random forest than decision tree...so
+random forest > decision tree > linear regression 
